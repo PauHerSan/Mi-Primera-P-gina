@@ -1,0 +1,40 @@
+/* Selector de etiqueta
+Se selecciona el elemento por su nombre y 
+va a cambiar a todos los que se llamen igual */
+
+body {
+    
+    background-image: url(Essets/Aros.png);
+    background-position: center;
+    
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+/* Selector de clase:
+Se puede elegir el nombre de clase, y se va poner 
+etiqueta por medio del atributo ej: class="nombre-clase"
+
+Por este medio se pueden cambiar las propiedades del 
+elemento o elementos deseados*/
+
+.diversion{border: 3px solid #000;}
+.imagen-centrada{border: #000; text-align: center;}
+.texto-centrado{text-align: justify;}
+.personajes{text-align: center;}
+
+/* Selector de ID
+Selector de ID me ayudará a editar un elemento a la vez,
+Es para cuando solo queremos hacer cambios a un elemento.
+Va a cambiar la etiqueta con el atributo
+id="nombre-id" Y vamos a llamar al elemento por el operador de numeral
+#nombre-id
+*/
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
